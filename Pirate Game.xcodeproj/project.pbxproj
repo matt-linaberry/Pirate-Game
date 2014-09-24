@@ -14,6 +14,22 @@
 		A3A1DC3819D366710033EACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC3719D366710033EACC /* Images.xcassets */; };
 		A3A1DC3B19D366710033EACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC3919D366710033EACC /* LaunchScreen.xib */; };
 		A3A1DC4719D366710033EACC /* Pirate_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DC4619D366710033EACC /* Pirate_GameTests.m */; };
+		A3A1DC5219D366DC0033EACC /* MTLTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DC5119D366DC0033EACC /* MTLTile.m */; };
+		A3A1DC5F19D368670033EACC /* PirateAttack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5319D368670033EACC /* PirateAttack.jpg */; };
+		A3A1DC6019D368670033EACC /* PirateBlacksmith.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5419D368670033EACC /* PirateBlacksmith.jpeg */; };
+		A3A1DC6119D368670033EACC /* PirateBoss.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5519D368670033EACC /* PirateBoss.jpeg */; };
+		A3A1DC6219D368670033EACC /* PirateFriendlyDock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5619D368670033EACC /* PirateFriendlyDock.jpg */; };
+		A3A1DC6319D368670033EACC /* PirateOctopusAttack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5719D368670033EACC /* PirateOctopusAttack.jpg */; };
+		A3A1DC6419D368670033EACC /* PirateParrot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5819D368670033EACC /* PirateParrot.jpg */; };
+		A3A1DC6519D368670033EACC /* PiratePlank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5919D368670033EACC /* PiratePlank.jpg */; };
+		A3A1DC6619D368670033EACC /* PirateShipBattle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5A19D368670033EACC /* PirateShipBattle.jpeg */; };
+		A3A1DC6719D368670033EACC /* PirateStart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5B19D368670033EACC /* PirateStart.jpg */; };
+		A3A1DC6819D368670033EACC /* PirateTreasure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5C19D368670033EACC /* PirateTreasure.jpeg */; };
+		A3A1DC6919D368670033EACC /* PirateTreasurer2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5D19D368670033EACC /* PirateTreasurer2.jpeg */; };
+		A3A1DC6A19D368670033EACC /* PirateWeapons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3A1DC5E19D368670033EACC /* PirateWeapons.jpeg */; };
+		A3A1DC6D19D369470033EACC /* MTLCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DC6C19D369470033EACC /* MTLCharacter.m */; };
+		A3A1DC7019D369D50033EACC /* MTLArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DC6F19D369D50033EACC /* MTLArmor.m */; };
+		A3A1DC7319D369FF0033EACC /* MTLWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DC7219D369FF0033EACC /* MTLWeapon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +56,26 @@
 		A3A1DC4019D366710033EACC /* Pirate GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A1DC4519D366710033EACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3A1DC4619D366710033EACC /* Pirate_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_GameTests.m; sourceTree = "<group>"; };
+		A3A1DC5019D366DC0033EACC /* MTLTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLTile.h; sourceTree = "<group>"; };
+		A3A1DC5119D366DC0033EACC /* MTLTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLTile.m; sourceTree = "<group>"; };
+		A3A1DC5319D368670033EACC /* PirateAttack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateAttack.jpg; sourceTree = "<group>"; };
+		A3A1DC5419D368670033EACC /* PirateBlacksmith.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateBlacksmith.jpeg; sourceTree = "<group>"; };
+		A3A1DC5519D368670033EACC /* PirateBoss.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateBoss.jpeg; sourceTree = "<group>"; };
+		A3A1DC5619D368670033EACC /* PirateFriendlyDock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateFriendlyDock.jpg; sourceTree = "<group>"; };
+		A3A1DC5719D368670033EACC /* PirateOctopusAttack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateOctopusAttack.jpg; sourceTree = "<group>"; };
+		A3A1DC5819D368670033EACC /* PirateParrot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateParrot.jpg; sourceTree = "<group>"; };
+		A3A1DC5919D368670033EACC /* PiratePlank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PiratePlank.jpg; sourceTree = "<group>"; };
+		A3A1DC5A19D368670033EACC /* PirateShipBattle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateShipBattle.jpeg; sourceTree = "<group>"; };
+		A3A1DC5B19D368670033EACC /* PirateStart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateStart.jpg; sourceTree = "<group>"; };
+		A3A1DC5C19D368670033EACC /* PirateTreasure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateTreasure.jpeg; sourceTree = "<group>"; };
+		A3A1DC5D19D368670033EACC /* PirateTreasurer2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateTreasurer2.jpeg; sourceTree = "<group>"; };
+		A3A1DC5E19D368670033EACC /* PirateWeapons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateWeapons.jpeg; sourceTree = "<group>"; };
+		A3A1DC6B19D369470033EACC /* MTLCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLCharacter.h; sourceTree = "<group>"; };
+		A3A1DC6C19D369470033EACC /* MTLCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLCharacter.m; sourceTree = "<group>"; };
+		A3A1DC6E19D369D50033EACC /* MTLArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTLArmor.h; path = ../MTLArmor.h; sourceTree = "<group>"; };
+		A3A1DC6F19D369D50033EACC /* MTLArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTLArmor.m; path = ../MTLArmor.m; sourceTree = "<group>"; };
+		A3A1DC7119D369FF0033EACC /* MTLWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLWeapon.h; sourceTree = "<group>"; };
+		A3A1DC7219D369FF0033EACC /* MTLWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLWeapon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +117,8 @@
 		A3A1DC2919D366710033EACC /* Pirate Game */ = {
 			isa = PBXGroup;
 			children = (
+				A3A1DC6E19D369D50033EACC /* MTLArmor.h */,
+				A3A1DC6F19D369D50033EACC /* MTLArmor.m */,
 				A3A1DC2E19D366710033EACC /* AppDelegate.h */,
 				A3A1DC2F19D366710033EACC /* AppDelegate.m */,
 				A3A1DC3119D366710033EACC /* ViewController.h */,
@@ -89,6 +127,12 @@
 				A3A1DC3719D366710033EACC /* Images.xcassets */,
 				A3A1DC3919D366710033EACC /* LaunchScreen.xib */,
 				A3A1DC2A19D366710033EACC /* Supporting Files */,
+				A3A1DC5019D366DC0033EACC /* MTLTile.h */,
+				A3A1DC5119D366DC0033EACC /* MTLTile.m */,
+				A3A1DC6B19D369470033EACC /* MTLCharacter.h */,
+				A3A1DC6C19D369470033EACC /* MTLCharacter.m */,
+				A3A1DC7119D369FF0033EACC /* MTLWeapon.h */,
+				A3A1DC7219D369FF0033EACC /* MTLWeapon.m */,
 			);
 			path = "Pirate Game";
 			sourceTree = "<group>";
@@ -96,6 +140,18 @@
 		A3A1DC2A19D366710033EACC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3A1DC5319D368670033EACC /* PirateAttack.jpg */,
+				A3A1DC5419D368670033EACC /* PirateBlacksmith.jpeg */,
+				A3A1DC5519D368670033EACC /* PirateBoss.jpeg */,
+				A3A1DC5619D368670033EACC /* PirateFriendlyDock.jpg */,
+				A3A1DC5719D368670033EACC /* PirateOctopusAttack.jpg */,
+				A3A1DC5819D368670033EACC /* PirateParrot.jpg */,
+				A3A1DC5919D368670033EACC /* PiratePlank.jpg */,
+				A3A1DC5A19D368670033EACC /* PirateShipBattle.jpeg */,
+				A3A1DC5B19D368670033EACC /* PirateStart.jpg */,
+				A3A1DC5C19D368670033EACC /* PirateTreasure.jpeg */,
+				A3A1DC5D19D368670033EACC /* PirateTreasurer2.jpeg */,
+				A3A1DC5E19D368670033EACC /* PirateWeapons.jpeg */,
 				A3A1DC2B19D366710033EACC /* Info.plist */,
 				A3A1DC2C19D366710033EACC /* main.m */,
 			);
@@ -199,9 +255,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A1DC6319D368670033EACC /* PirateOctopusAttack.jpg in Resources */,
+				A3A1DC6A19D368670033EACC /* PirateWeapons.jpeg in Resources */,
+				A3A1DC6519D368670033EACC /* PiratePlank.jpg in Resources */,
+				A3A1DC6819D368670033EACC /* PirateTreasure.jpeg in Resources */,
+				A3A1DC6219D368670033EACC /* PirateFriendlyDock.jpg in Resources */,
+				A3A1DC5F19D368670033EACC /* PirateAttack.jpg in Resources */,
 				A3A1DC3619D366710033EACC /* Main.storyboard in Resources */,
 				A3A1DC3B19D366710033EACC /* LaunchScreen.xib in Resources */,
 				A3A1DC3819D366710033EACC /* Images.xcassets in Resources */,
+				A3A1DC6619D368670033EACC /* PirateShipBattle.jpeg in Resources */,
+				A3A1DC6919D368670033EACC /* PirateTreasurer2.jpeg in Resources */,
+				A3A1DC6019D368670033EACC /* PirateBlacksmith.jpeg in Resources */,
+				A3A1DC6719D368670033EACC /* PirateStart.jpg in Resources */,
+				A3A1DC6119D368670033EACC /* PirateBoss.jpeg in Resources */,
+				A3A1DC6419D368670033EACC /* PirateParrot.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A1DC6D19D369470033EACC /* MTLCharacter.m in Sources */,
 				A3A1DC3319D366710033EACC /* ViewController.m in Sources */,
 				A3A1DC3019D366710033EACC /* AppDelegate.m in Sources */,
+				A3A1DC7019D369D50033EACC /* MTLArmor.m in Sources */,
 				A3A1DC2D19D366710033EACC /* main.m in Sources */,
+				A3A1DC5219D366DC0033EACC /* MTLTile.m in Sources */,
+				A3A1DC7319D369FF0033EACC /* MTLWeapon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
