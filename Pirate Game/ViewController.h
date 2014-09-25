@@ -10,6 +10,18 @@
 
 @interface ViewController : UIViewController
 
-
+@property (strong, nonatomic) IBOutlet UILabel *playerHPLabel;
+@property (strong, nonatomic) IBOutlet UILabel *PlayerDamageLabel;
+@property (strong, nonatomic) IBOutlet UILabel *playerWeaponLabel;
+@property (strong, nonatomic) IBOutlet UILabel *playerArmorLabel;
+- (IBAction)leftActionButton:(UIButton *)sender;
+- (IBAction)rightActionButton:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
+@property (strong, nonatomic) IBOutlet UILabel *storyLabel;
+- (IBAction)resetButton:(UIButton *)sender;
+- (IBAction)northButton:(UIButton *)sender;
+- (IBAction)eastButton:(UIButton *)sender;
+- (IBAction)southButton:(UIButton *)sender;
+- (IBAction)westButton:(UIButton *)sender;
 @end
 

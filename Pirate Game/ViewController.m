@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.backgroundImage.image = [UIImage imageNamed:@"PirateStart.jpg"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +25,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)leftActionButton:(UIButton *)sender {
+}
+
+- (IBAction)rightActionButton:(UIButton *)sender {
+}
+- (IBAction)resetButton:(UIButton *)sender {
+}
+
+- (IBAction)northButton:(UIButton *)sender {
+}
+
+- (IBAction)eastButton:(UIButton *)sender {
+}
+
+- (IBAction)southButton:(UIButton *)sender {
+}
+
+- (IBAction)westButton:(UIButton *)sender {
+}
 @end
