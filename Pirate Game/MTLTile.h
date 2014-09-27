@@ -11,4 +11,6 @@
 @interface MTLTile : NSObject
 @property (strong, nonatomic) NSString *storyMessage;
 @property (strong, nonatomic) UIImage *backgroundImage;
+@property (nonatomic) BOOL hasAction1;
+@property (nonatomic) BOOL hasAction2;
 @end

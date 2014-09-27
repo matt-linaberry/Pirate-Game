@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "GameFactory.h"
 @interface ViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *playerHPLabel;
@@ -23,5 +23,14 @@
 - (IBAction)eastButton:(UIButton *)sender;
 - (IBAction)southButton:(UIButton *)sender;
 - (IBAction)westButton:(UIButton *)sender;
+
+@property (strong, nonatomic) IBOutlet UIButton *goNorth;
+@property (strong, nonatomic) IBOutlet UIButton *goEast;
+@property (strong, nonatomic) IBOutlet UIButton *goSouth;
+@property (strong, nonatomic) IBOutlet UIButton *goWest;
+@property (nonatomic) CGPoint playerLocation;
+@property (strong, nonatomic) NSArray *gameTiles;
+
+- (void) updateButtons;
 @end
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9927F28319D668C30064E0E6 /* GameFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927F28219D668C30064E0E6 /* GameFactory.m */; };
 		A3A1DC2D19D366710033EACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DC2C19D366710033EACC /* main.m */; };
 		A3A1DC3019D366710033EACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DC2F19D366710033EACC /* AppDelegate.m */; };
 		A3A1DC3319D366710033EACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DC3219D366710033EACC /* ViewController.m */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9927F28119D668C30064E0E6 /* GameFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFactory.h; sourceTree = "<group>"; };
+		9927F28219D668C30064E0E6 /* GameFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFactory.m; sourceTree = "<group>"; };
 		A3A1DC2719D366710033EACC /* Pirate Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A1DC2B19D366710033EACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3A1DC2C19D366710033EACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				A3A1DC6C19D369470033EACC /* MTLCharacter.m */,
 				A3A1DC7119D369FF0033EACC /* MTLWeapon.h */,
 				A3A1DC7219D369FF0033EACC /* MTLWeapon.m */,
+				9927F28119D668C30064E0E6 /* GameFactory.h */,
+				9927F28219D668C30064E0E6 /* GameFactory.m */,
 			);
 			path = "Pirate Game";
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			files = (
 				A3A1DC6D19D369470033EACC /* MTLCharacter.m in Sources */,
 				A3A1DC3319D366710033EACC /* ViewController.m in Sources */,
+				9927F28319D668C30064E0E6 /* GameFactory.m in Sources */,
 				A3A1DC3019D366710033EACC /* AppDelegate.m in Sources */,
 				A3A1DC7019D369D50033EACC /* MTLArmor.m in Sources */,
 				A3A1DC2D19D366710033EACC /* main.m in Sources */,
@@ -484,6 +490,7 @@
 				A3A1DC4C19D366710033EACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3A1DC4D19D366710033EACC /* Build configuration list for PBXNativeTarget "Pirate GameTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +499,7 @@
 				A3A1DC4F19D366710033EACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
