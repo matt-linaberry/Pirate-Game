@@ -23,6 +23,8 @@
 - (IBAction)eastButton:(UIButton *)sender;
 - (IBAction)southButton:(UIButton *)sender;
 - (IBAction)westButton:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UIButton *actionButton1;
+@property (strong, nonatomic) IBOutlet UIButton *actionButton2;
 
 @property (strong, nonatomic) IBOutlet UIButton *goNorth;
 @property (strong, nonatomic) IBOutlet UIButton *goEast;
@@ -31,6 +33,8 @@
 @property (nonatomic) CGPoint playerLocation;
 @property (strong, nonatomic) NSArray *gameTiles;
 
-- (void) updateButtons;
+@property (strong, nonatomic) MTLCharacter *thePlayer;
+
+- (void) updateView;
 @end
 

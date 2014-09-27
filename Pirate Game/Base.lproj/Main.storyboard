@@ -35,13 +35,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNC-g5-zoe">
-                                        <rect key="frame" x="74" y="108" width="145" height="21"/>
+                                        <rect key="frame" x="74" y="79" width="145" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHo-Eg-0bP">
-                                        <rect key="frame" x="76" y="79" width="145" height="21"/>
+                                        <rect key="frame" x="77" y="52" width="145" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -71,7 +71,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaa-CH-ZVR">
-                                        <rect key="frame" x="74" y="52" width="181" height="21"/>
+                                        <rect key="frame" x="77" y="108" width="181" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -195,6 +195,8 @@
                     </view>
                     <connections>
                         <outlet property="PlayerDamageLabel" destination="yHo-Eg-0bP" id="UoW-vX-OMQ"/>
+                        <outlet property="actionButton1" destination="7y2-he-5rC" id="Pwg-AC-oTR"/>
+                        <outlet property="actionButton2" destination="Kly-gl-bRE" id="pn9-je-h2R"/>
                         <outlet property="backgroundImage" destination="fP2-3k-3pO" id="c3s-Ic-e3A"/>
                         <outlet property="goEast" destination="uxe-rK-6lq" id="ash-M7-1s6"/>
                         <outlet property="goNorth" destination="5oZ-8W-IGk" id="CtX-nL-bGa"/>

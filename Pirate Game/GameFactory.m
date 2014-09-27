@@ -16,15 +16,16 @@
     // column 1
     MTLTile *startTile = [[MTLTile alloc] init];
     startTile.storyMessage = @"Welcome to the Pirate Game!";
-    startTile.hasAction1 = NO;
+    startTile.hasAction1 = YES;
+    startTile.actionButton1 = @"Carry on.";
     startTile.hasAction2 = NO;
-    startTile.backgroundImage = [UIImage imageNamed:@"PirateStart.jpeg"];
+    startTile.backgroundImage = [UIImage imageNamed:@"PirateStart.jpg"];
     
     MTLTile *attackTile = [[MTLTile alloc] init];
     attackTile.storyMessage = @"Ha ha ha.  It's an attack!";
     attackTile.hasAction1 = NO;
     attackTile.hasAction2 = NO;
-    attackTile.backgroundImage = [UIImage imageNamed:@"PirateAttack.jpeg"];
+    attackTile.backgroundImage = [UIImage imageNamed:@"PirateAttack.jpg"];
     
     MTLTile *blacksmithTile = [[MTLTile alloc] init];
     blacksmithTile.storyMessage = @"Argh a blacksmith to make something!";
@@ -75,13 +76,13 @@
     dockTile.storyMessage = @"You're in a safe haven!";
     dockTile.hasAction1 = NO;
     dockTile.hasAction2 = NO;
-    dockTile.backgroundImage = [UIImage imageNamed:@"PirateFriendlyDock.jpeg"];
+    dockTile.backgroundImage = [UIImage imageNamed:@"PirateFriendlyDock.jpg"];
     
     MTLTile *octopusTile = [[MTLTile alloc] init];
     octopusTile.storyMessage = @"Oh no it's your friendly 8 legged monster!";
     octopusTile.hasAction1 = NO;
     octopusTile.hasAction2 = NO;
-    octopusTile.backgroundImage = [UIImage imageNamed:@"PirateOctopusAttack.jpeg"];
+    octopusTile.backgroundImage = [UIImage imageNamed:@"PirateOctopusAttack.jpg"];
     
     MTLTile *bossTile = [[MTLTile alloc] init];
     bossTile.storyMessage = @"LOL it's the boss!";
@@ -97,5 +98,22 @@
     NSArray *column4Array = [[NSArray alloc] initWithObjects:dockTile, shipBattleTile, bossTile, nil];
     NSArray *tilesArray = [[NSArray alloc] initWithObjects:column1Array, column2Array, column3Array, column4Array, nil];
     return tilesArray;
+}
+
+- (MTLCharacter *) createPlayer
+{
+    MTLCharacter *aPlayer = [[MTLCharacter alloc] init];
+    aPlayer.health = 10;
+    aPlayer.damage = 1;
+    MTLWeapon *fists = [[MTLWeapon alloc] init];
+    fists.damageValue = 1;
+    fists.weaponName = @"Bare Fists";
+    aPlayer.weapon = fists;
+    
+    MTLArmor *cottonShirt = [[MTLArmor alloc] init];
+    cottonShirt.armorValue = 1;
+    cottonShirt.armorName = @"Cotton Shirt";
+    aPlayer.armor = cottonShirt;
+    return aPlayer;
 }
 @end

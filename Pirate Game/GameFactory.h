@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "MTLTile.h"
+#import "MTLCharacter.h"
 @interface GameFactory : NSObject
 
 - (NSArray *) tiles;
-
+- (MTLCharacter *) createPlayer;
 @end

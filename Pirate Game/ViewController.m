@@ -21,7 +21,8 @@
     _playerLocation = CGPointMake(0,0);
     GameFactory *theGame = [[GameFactory alloc] init];
     [self setGameTiles:[theGame tiles]];
-    [self updateButtons];
+    self.thePlayer = theGame.createPlayer;
+    [self updateView];
     
 }
 
@@ -30,9 +31,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) updateButtons
+- (void) updateView
 {
-    NSLog(@"Our position is %f %f", self.playerLocation.x, self.playerLocation.y);
+    // show the player stats!
+    self.playerHPLabel.text = [NSString stringWithFormat:@"%i", (int)self.thePlayer.health];
+    self.PlayerDamageLabel.text = [NSString stringWithFormat:@"%i", (int)self.thePlayer.damage];
+    self.playerWeaponLabel.text = self.thePlayer.weapon.weaponName;
+    self.playerArmorLabel.text = self.thePlayer.armor.armorName;
+    
     // test if we could go north from the current position
     if (_playerLocation.y - 1 >= 0)
     {
@@ -53,16 +59,13 @@
     }
     // test if we could go south from the current position
     NSArray *dummy = [[NSArray alloc] initWithArray:[self.gameTiles objectAtIndex:self.playerLocation.x]];
-    NSLog(@"It is %lu %f", [dummy count], _playerLocation.y + 1);
     if (_playerLocation.y + 1 >= [dummy count])
     {
         _goSouth.hidden = YES;
-        NSLog(@"I want to turn the sourth button off!");
     }
     else
     {
         _goSouth.hidden = NO;
-        NSLog(@"I want to turn the south button on!");
     }
     
     // test if we could go west from the current position
@@ -75,7 +78,20 @@
         self.goWest.hidden = YES;
     }
     
+    // grab a reference to the tile
+    MTLTile *currentTile = [[self.gameTiles objectAtIndex:self.playerLocation.x] objectAtIndex:self.playerLocation.y];
+    [self.backgroundImage setImage:currentTile.backgroundImage];
+    self.storyLabel.text = currentTile.storyMessage;
     
+    // refresh action buttons
+    if (currentTile.hasAction1)
+    {
+        self.actionButton1.hidden = NO;
+        
+    }
+    else
+    {
+    }
 }
 
 - (IBAction)leftActionButton:(UIButton *)sender {
@@ -89,26 +105,26 @@
 - (IBAction)northButton:(UIButton *)sender
 {
     self.playerLocation = CGPointMake(self.playerLocation.x, self.playerLocation.y - 1);
-    [self updateButtons];
+    [self updateView];
 }
 
 - (IBAction)eastButton:(UIButton *)sender
 {
     self.playerLocation = CGPointMake(self.playerLocation.x + 1, self.playerLocation.y);
-    [self updateButtons];
+    [self updateView];
 }
 
 - (IBAction)southButton:(UIButton *)sender
 {
     self.playerLocation = CGPointMake(self.playerLocation.x, self.playerLocation.y + 1);
-    [self updateButtons];
+    [self updateView];
 
 }
 
 - (IBAction)westButton:(UIButton *)sender
 {
     self.playerLocation = CGPointMake(self.playerLocation.x - 1, self.playerLocation.y);
-    [self updateButtons];
+    [self updateView];
 
 }
 @end
